@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-richmond",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Richmond GIS — Richmond, Virginia open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2d9433054ded89c0261e38909a65915c8b6b32668e3ca3841deda5ee4cd0aea9",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-0dfb9726fb667fbe456de6049b3fb34ed64ad832ead2dab0e419354b1d523b79",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }

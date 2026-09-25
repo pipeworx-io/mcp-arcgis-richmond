@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arcgis-richmond",
   "title": "Arcgis Richmond",
   "description": "City of Richmond GIS — Richmond, Virginia open geospatial data (ArcGIS).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/arcgis-richmond",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arcgis-richmond",
