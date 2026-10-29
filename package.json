@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-arcgis-richmond",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "City of Richmond GIS — Richmond, Virginia open geospatial data (ArcGIS).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-arcgis-richmond": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-richmond"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-arcgis-richmond.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/arcgis-richmond",
   "pipeworx": {
-    "sourceHash": "v1-4aff06f17c7401334dd8f1e6ab2f36766b836b1cbe9be3d990d1d774f54cc026",
-    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
+    "mode": "gateway",
+    "slug": "arcgis-richmond",
+    "gatewaySlug": "arcgis-richmond",
+    "sourceHash": "v1-8a91d5a7a0d917613659aa1d2f880aaacf5a600f1f32e690ebb1b4fb3cbe16a2",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
